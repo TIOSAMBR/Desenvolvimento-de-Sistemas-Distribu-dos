@@ -1,0 +1,22 @@
+Compilação e Execução
+
+Para Socket
+1.Compile os arquivos:
+javac SocketServer.java
+javac SocketClient.java
+
+2.Execute o servidor:
+java SocketServer
+
+3.Execute o cliente em outra janela de terminal:
+java SocketClient
+
+Para RMI
+1.Compile os arquivos Java:
+javac ConversorInterface.java RMIConversorServer.java RMIConversorClient.java
+
+2.Execute o servidor:
+java RMIConversorServer
+
+3.Execute o cliente em uma nova janela de terminal:
+java RMIConversorClient
