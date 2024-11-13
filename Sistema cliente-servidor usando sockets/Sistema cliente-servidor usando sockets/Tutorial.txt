@@ -1,0 +1,23 @@
+Executando o Sistema
+
+1.Compile ambos os arquivos Java:
+javac BankServer.java BankClient.java
+
+2.Execute o servidor em uma janela de terminal:
+java BankServer
+
+3.Em outra janela de terminal, execute o cliente:
+java BankClient
+
+
+Como Funciona
+1.Servidor (BankServer.java):
+Carrega as informações das contas a partir do arquivo contas.txt.
+Escuta conexões de clientes na porta especificada.
+Para cada cliente conectado, processa a solicitação de operação (saque ou depósito) e atualiza o saldo.
+Responde ao cliente com o saldo atualizado ou uma mensagem de erro.
+
+2.Cliente (BankClient.java):
+Conecta ao servidor e solicita informações do usuário (número da conta, operação e valor).
+Envia os dados ao servidor.
+Recebe e exibe a resposta do servidor.
