@@ -1,0 +1,20 @@
+http://localhost:8080/api/formatar_nome
+{
+  "nome_formatado": "Sr.; Desconhecido, Usuário"
+}
+
+http://localhost:8080/api/formatar_nome?nome=Fernando
+{
+  "nome_formatado": "Sr.; Desconhecido, Fernando"
+}
+
+
+http://localhost:8080/api/formatar_nome?nome=Fernando&sobrenome=Matos
+{
+  "nome_formatado": "Sr.; Matos, Fernando"
+}
+
+http://localhost:8080/api/formatar_nome?pronome=Vossa%20Excelência&nome=Fernando&sobrenome=Matos
+{
+  "nome_formatado": "Vossa Excelência; Matos, Fernando"
+}
