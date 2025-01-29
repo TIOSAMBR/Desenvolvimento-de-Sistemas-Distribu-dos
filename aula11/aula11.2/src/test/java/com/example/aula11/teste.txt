@@ -1,0 +1,46 @@
+Teste das Operações Básicas
+Soma
+http://localhost:8080/calc/soma?a=5&b=3
+Resposta: 8.0
+
+Subtração
+http://localhost:8080/calc/subtracao?a=5&b=3
+Resposta: 2.0
+
+Multiplicação
+http://localhost:8080/calc/multiplicacao?a=5&b=3
+Resposta: 15.0
+
+Divisão
+http://localhost:8080/calc/divisao?a=6&b=3
+Resposta: 2.0
+
+Teste das Operações Avançadas
+Raiz Quadrada
+http://localhost:8080/calc/raiz?a=9
+Resposta: 3.0
+
+Exponenciação
+http://localhost:8080/calc/expoente?base=2&exp=3
+Resposta: 8.0
+
+Inverso
+http://localhost:8080/calc/inverso?a=4
+Resposta: 0.25
+
+Módulo
+http://localhost:8080/calc/modulo?a=-7
+Resposta: 7.0
+
+Fatorial
+http://localhost:8080/calc/fatorial?a=5
+Resposta: 120
+
+Média (5 valores)
+http://localhost:8080/calc/media?valores=1,2,3,4,5
+Resposta: 3.0
+
+Mediana (5 valores)
+http://localhost:8080/calc/mediana?valores=10,20,30,40,50
+Resposta: 30.0
+
