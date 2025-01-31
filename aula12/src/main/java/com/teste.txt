@@ -1,0 +1,17 @@
+Testando a API
+
+Teste CPF Válido
+http://localhost:8080/CPF/12345678909
+CPF Válido
+
+Teste CPF Inválido
+http://localhost:8080/CPF/12345678900
+CPF Inválido
+
+Teste CNPJ Válido
+http://localhost:8080/CNPJ/11222333000181
+CNPJ Válido
+
+Teste CNPJ Inválido
+http://localhost:8080/CNPJ/11222333000100
+CNPJ Inválido
